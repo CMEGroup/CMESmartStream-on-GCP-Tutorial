@@ -65,7 +65,7 @@ Those using Java can leverage our initial package for accessing a subscription a
 
 BSD 3-Clause License
 
-Copyright (c) 2018, CME Group Inc.
+Copyright (c) 2019, CME Group Inc.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
