@@ -23,7 +23,7 @@ CME Smart Stream is designed to provide all CME Market Data via Cloud Pub/Sub To
 
 ## Downloading List of CME Market Data Topics available on CME Smart Stream
 
-CME Smart Stream on GCP has over 152 Market Data Topics available as aligned to CME [traditional On-premises multi-cast solutions](https://www.cmegroup.com/market-data/distributor/market-data-platform.html). 
+CME Smart Stream on GCP has over 152 Market Data Topics available as aligned to CME [traditional on-premises multi-cast solutions](https://www.cmegroup.com/market-data/distributor/market-data-platform.html). 
 
 This [tutorials](https://github.com/CMEGroup/CMESmartStream-on-GCP-Tutorial/blob/master/Tutorials/GooglePubSubGetCMEBinaryTopics.ipynb) shows how you can quickly download active list of Topics for Certification, New Release and Production.  
 
