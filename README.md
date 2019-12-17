@@ -7,14 +7,14 @@ This project contains a variety of python notebooks to support customers initial
 
 CME Smart Stream on GCP leverage Google Cloud Pub/Sub to enable customers to access CME Market Data.  As the diagram illustrates below, CME pushes data into Topics and customers retrieve data from Subscriptions.  
 
-![CME Smart Stream Overview Diagram](TBD/image/GRAPHIC.JPG)
+![CME Smart Stream Overview Diagram](https://github.com/CMEGroup/CMESmartStream-on-GCP-Tutorial/blob/master/Tutorials/images/CloudPubSubOverview.png)
 
 
 # Tutorial Overviews
 
 ## Getting CME Binary Data from Smart Stream on Google Cloud Platform
 
-CME Smart Stream is designed to provide all CME Market Data via Cloud Pub/Sub Topics where customers can create Cloud Pub/Sub Subscriptions in their specific GCP projects.  In this tutorial (LINK):
+CME Smart Stream is designed to provide all CME Market Data via Cloud Pub/Sub Topics where customers can create Cloud Pub/Sub Subscriptions in their specific GCP projects.  In this [tutorial](https://github.com/CMEGroup/CMESmartStream-on-GCP-Tutorial/blob/master/Tutorials/GooglePubSubGetCMEBinaryData.ipynb):
 - we will credential via GCP IAM using your Service Account or User Account.
 - Setup your Project and target a CME Market Data Topic.
 - Create a Cloud Pub/Sub Subscription in your account.
@@ -25,7 +25,7 @@ CME Smart Stream is designed to provide all CME Market Data via Cloud Pub/Sub To
 
 CME Smart Stream on GCP has over 152 Market Data Topics available as aligned to CME [traditional On-premises multi-cast solutions](https://www.cmegroup.com/market-data/distributor/market-data-platform.html). 
 
-This tutorials (LINK) shows how you can quickly download active list of Topics for Certification, New Release and Production.  
+This [tutorials](https://github.com/CMEGroup/CMESmartStream-on-GCP-Tutorial/blob/master/Tutorials/GooglePubSubGetCMEBinaryTopics.ipynb) shows how you can quickly download active list of Topics for Certification, New Release and Production.  
 
 
 # Getting Started
