@@ -1,0 +1,11 @@
+name: ssclgcp_binary
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.7.3
+- google-cloud-sdk
+- jupyter
+- pip
+- pip:
+  - google-cloud-pubsub
