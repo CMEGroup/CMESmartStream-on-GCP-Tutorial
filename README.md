@@ -1,11 +1,11 @@
 # CME Smart Stream on GCP Python Tutorial Notebooks
 
-This project contains a variety of python notebooks to support customers initial usage of [CME Smart Stream on Google Cloud Platform (GCP)](https://www.cmegroup.com/market-data/cloud-mdp.html).  Since Smart Stream on GCP leverages [Google Cloud Pub/Sub](https://cloud.google.com/pubsub/) as well as [Google IAM](https://cloud.google.com/iam/), the following notebook leverage [GCP Python](https://cloud.google.com/python/) libraries thereby removing the complexity of accessing CME Group Market Data while demonstrating the basic workflows needed to use the Cloud PubSub solution. 
+This project contains a variety of python notebooks to support customers initial usage of [CME Smart Stream on Google Cloud Platform (GCP)](https://www.cmegroup.com/market-data/cloud-mdp.html).  Since Smart Stream on GCP leverages [Google Cloud Pub/Sub](https://cloud.google.com/pubsub/) as well as [Google IAM](https://cloud.google.com/iam/), the following notebook leverages [GCP Python](https://cloud.google.com/python/) libraries thereby removing the complexity of accessing CME Group Market Data while demonstrating the basic workflows needed to use the Cloud PubSub solution. 
 
 
 # High Level View of Solution
 
-CME Smart Stream on GCP leverage Google Cloud Pub/Sub to enable customers to access CME Market Data.  As the diagram illustrates below, CME pushes data into Topics and customers retrieve data from Subscriptions.  
+CME Smart Stream on GCP leverages Google Cloud Pub/Sub to enable customers to access CME Group market data.  As the diagram illustrates below, CME Group pushes data into Topics and customers retrieve data from Subscriptions.  
 
 ![CME Smart Stream Overview Diagram](https://github.com/CMEGroup/CMESmartStream-on-GCP-Tutorial/blob/master/Tutorials/images/CloudPubSubOverview.png)
 
@@ -14,14 +14,14 @@ CME Smart Stream on GCP leverage Google Cloud Pub/Sub to enable customers to acc
 
 ## Getting CME Binary Data from Smart Stream on Google Cloud Platform
 
-CME Smart Stream is designed to provide all CME Market Data via Cloud Pub/Sub Topics where customers can create Cloud Pub/Sub Subscriptions in their specific GCP projects.  In this [tutorial](https://github.com/CMEGroup/CMESmartStream-on-GCP-Tutorial/blob/master/Tutorials/GooglePubSubGetCMEBinaryData.ipynb):
-- we will credential via GCP IAM using your Service Account or User Account.
-- Setup your Project and target a CME Market Data Topic.
+CME Smart Stream is designed to provide all CME Group market data via Cloud Pub/Sub Topics where customers can create Cloud Pub/Sub Subscriptions in their specific GCP projects.  In this [tutorial](https://github.com/CMEGroup/CMESmartStream-on-GCP-Tutorial/blob/master/Tutorials/GooglePubSubGetCMEBinaryData.ipynb):
+- Credential via GCP IAM using your Service Account or User Account.
+- Setup your Project and target a CME Group market data Topic.
 - Create a Cloud Pub/Sub Subscription in your account.
 - Pull a single message from that Queue.
 - Delete the Subscription
 
-## Downloading List of CME Market Data Topics available on CME Smart Stream
+## Downloading List of CME Group Market Data Topics Available on CME Smart Stream
 
 CME Smart Stream on GCP has over 152 Market Data Topics available as aligned to CME [traditional on-premises multi-cast solutions](https://www.cmegroup.com/market-data/distributor/market-data-platform.html). 
 
@@ -32,19 +32,19 @@ This [tutorials](https://github.com/CMEGroup/CMESmartStream-on-GCP-Tutorial/blob
 
 ## Sign up for CME Smart Stream on Google Cloud Platform
 
-Please go to [CME Data Services Portal](http://dataservices.cmegroup.com/Data-Products) to register for CME Smart Stream on GCP.  Once approved, these examples will run with your specific GCP IAM information supplied at onboarding.
+Please go to [CME Group Data Services Portal](http://dataservices.cmegroup.com/Data-Products) to register for CME Smart Stream on GCP.  Once approved, these examples will run with your specific GCP IAM information supplied at onboarding.
 
 
 ## To Run This Analysis Locally
 
-To use the examples in juptyer notebook from Anaconda Python.  The following will clone this repo, inlcuding an environment.yml file that will create the proper Anaconda environment with all the dependencies.  You then launch the juptyer lab environment.  
+To use the examples in Juptyer notebook from Anaconda Python.  The following will clone this repo, including an environment.yml file that will create the proper Anaconda environment with all the dependencies.  You then launch the Juptyer lab environment.  
 
 ```
 git clone https://github.com/CMEGroup/CMESmartStream-on-GCP-Tutorial.git
 cd CMESmartStream-on-GCP-Tutorial
 conda env create .
 source activate  CMESmartStream_on_GCP_Tutorial
-juptyer notebook
+jupyter notebook
 
 
 ```
